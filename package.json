@@ -1,0 +1,22 @@
+{
+  "name": "jwt-authentication-starter",
+  "version": "1.0.0",
+  "author": "Darshan Gaikwad",
+  "description": "A starter project for JWT authentication",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "authentication",
+    "JWT",
+    "starter"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1"
+  }
+}
