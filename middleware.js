@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 
+// Middleware to verify JWT token and decode the details
 function verifyJWT(req, res, next) {
     const token = req.headers["authorization"];
 

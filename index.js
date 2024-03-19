@@ -11,6 +11,7 @@ const PORT = 3000;
 mongoose.connect(process.env.MONGODB_URL).then(() => {
     console.log("MongoDB is connected!");
 });
+// Middleware for parsing JSON data
 app.use(express.json());
 
 //Authentication route
