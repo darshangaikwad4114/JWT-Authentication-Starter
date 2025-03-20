@@ -12,7 +12,7 @@ function verifyJWT(req, res, next) {
         if (err) {
             return res.status(401).json({ message: "Failed to authenticate token" });
         }
-        req.user = data;
+        req.user = data; // Attach decoded user data to the request object
         next();
     });
 }
